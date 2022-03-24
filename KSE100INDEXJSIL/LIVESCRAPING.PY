@@ -38,6 +38,7 @@ while True:
         spanA=None
         spanB=None
     print()
+    #To see the updated results from database
     c.execute ('''SELECT * FROM Shows''' )
     results = c.fetchall ( )
     print ( results )
